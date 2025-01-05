@@ -28,3 +28,12 @@ export enum MySQLDataType {
     SET = "SET",
     JSON = "JSON"
   }
+
+
+ export const ROUTES={
+  HOME:"/",
+  LOGIN:"/login",
+  SIGNUP:"/signup",
+  TABLES:"/tables",
+  DATASETS:"/dataset"
+ }
