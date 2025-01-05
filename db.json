@@ -1,0 +1,49 @@
+{
+    
+    "users":[
+        {
+            "first_name":"name one",
+            "last_name":"name last",
+            "email":"email one",
+            "password":"pasword"
+        }
+    ],
+    
+    "databases":[
+        {
+            "id":"1",
+            "title":"database one"
+        },
+        {
+            "id":"1",
+            "title":"database one"
+        }
+    ],
+
+    "tables":[
+        {
+            "id":1,
+            "database_id":101,
+            "title":"table one"
+        }
+    ],
+    "column":[
+        {
+            "id":"1",
+            "table_id":101,
+            "title":"column one"
+        }
+    ],
+    "row":[
+        {
+            "id":"1",
+            "table_id":101,
+            "column_id":101
+        }
+    ],
+    "datatypes":[
+        {
+            "id":101           
+        }
+    ]
+}
